@@ -15,6 +15,7 @@
 		340BAD131DD308A900D3521C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340BAD111DD308A900D3521C /* Main.storyboard */; };
 		340BAD151DD308A900D3521C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340BAD141DD308A900D3521C /* Assets.xcassets */; };
 		340BAD181DD308A900D3521C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340BAD161DD308A900D3521C /* LaunchScreen.storyboard */; };
+		3421C7ED1EA0AA3A00906D69 /* Developer.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3421C7EC1EA0AA3A00906D69 /* Developer.plist */; };
 		6EBF0BBD0F6797552EE62EBD /* libPods-JenkinsProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63988FD48C346B6CEAC61850 /* libPods-JenkinsProject.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		340BAD141DD308A900D3521C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		340BAD171DD308A900D3521C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340BAD191DD308A900D3521C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3421C7EC1EA0AA3A00906D69 /* Developer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Developer.plist; sourceTree = "<group>"; };
 		63988FD48C346B6CEAC61850 /* libPods-JenkinsProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JenkinsProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7791B44DFBD92F1BE676B5C5 /* Pods-JenkinsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsProject/Pods-JenkinsProject.debug.xcconfig"; sourceTree = "<group>"; };
 		DD701690CD2EC8FC2AEDD1C6 /* Pods-JenkinsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsProject/Pods-JenkinsProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				340BAD161DD308A900D3521C /* LaunchScreen.storyboard */,
 				340BAD191DD308A900D3521C /* Info.plist */,
 				340BAD021DD308A900D3521C /* Supporting Files */,
+				3421C7EC1EA0AA3A00906D69 /* Developer.plist */,
 			);
 			path = JenkinsProject;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				340BAD181DD308A900D3521C /* LaunchScreen.storyboard in Resources */,
 				340BAD151DD308A900D3521C /* Assets.xcassets in Resources */,
 				340BAD131DD308A900D3521C /* Main.storyboard in Resources */,
+				3421C7ED1EA0AA3A00906D69 /* Developer.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E417D0B9C42B58616D0577FA /* [CP] Copy Pods Resources */ = {
@@ -367,7 +371,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.MobileProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "760c276a-ffd4-48d6-932c-e00dd4be8c47";
+				PROVISIONING_PROFILE = "0c62bb44-1fc0-4431-bcd7-ea1c7e132de3";
 				PROVISIONING_PROFILE_SPECIFIER = MobileProject;
 			};
 			name = Debug;
