@@ -1,7 +1,7 @@
-#author by 得力
 
 #路径
 project_info_path="/Users/Shared/Jenkins/Home/jobs/JenkinsProject/workspace"
+project_AutomaticPacking="/Users/Shared/Jenkins/Home/jobs/JenkinsProject/AutomaticPacking"
 
 #工程名字(Target名字)
 Project_Name="JenkinsProject"
@@ -36,13 +36,13 @@ APPSTORECODE_SIGN_IDENTITY="iPhone Distribution: xxxxx"
 APPSTOREROVISIONING_PROFILE_NAME="xxxxx-xxxx-xxxx-xxxx-xxxxxx"
 
 #企业(enterprise)证书名#描述文件
-ENTERPRISECODE_SIGN_IDENTITY="iPhone Distribution: Shanghai Qijia Network Information Science & Technology Co.,Ltd"
-ENTERPRISEROVISIONING_PROFILE_NAME="0dd43eba-207b-4ed9a-c1c7070a25c8"
+ENTERPRISECODE_SIGN_IDENTITY="iPhone Distrirmation Science & Technology Co.,Ltd"
+ENTERPRISEROVISIONING_PROFILE_NAME="0dd43eba-c1c7070a25c8"
 
 #加载各个版本的plist文件
-ADHOCExportOptionsPlist=$project_info_path/AutomaticPacking/ADHOCExportOptionsPlist.plist
-AppStoreExportOptionsPlist=$project_info_path/AutomaticPacking/AppStoreExportOptionsPlist.plist
-EnterpriseExportOptionsPlist=$project_info_path/AutomaticPacking/EnterpriseExportOptionsPlist.plist
+ADHOCExportOptionsPlist=$project_AutomaticPacking/ADHOCExportOptionsPlist.plist
+AppStoreExportOptionsPlist=$project_AutomaticPacking/AppStoreExportOptionsPlist.plist
+EnterpriseExportOptionsPlist=$project_AutomaticPacking/EnterpriseExportOptionsPlist.plist
 
 ADHOCExportOptionsPlist=${ADHOCExportOptionsPlist}
 AppStoreExportOptionsPlist=${AppStoreExportOptionsPlist}
