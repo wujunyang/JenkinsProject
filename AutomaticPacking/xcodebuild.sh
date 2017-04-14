@@ -36,8 +36,8 @@ APPSTORECODE_SIGN_IDENTITY="iPhone Distribution: xxxxx"
 APPSTOREROVISIONING_PROFILE_NAME="xxxxx-xxxx-xxxx-xxxx-xxxxxx"
 
 #企业(enterprise)证书名#描述文件
-ENTERPRISECODE_SIGN_IDENTITY="iPhone Distrirmation Science & Technology Co.,Ltd"
-ENTERPRISEROVISIONING_PROFILE_NAME="0dd43eba-c1c7070a25c8"
+ENTERPRISECODE_SIGN_IDENTITY="iPhone Distribution: Shanghai Qijia Network Information Science & Technology Co.,Ltd"
+ENTERPRISEROVISIONING_PROFILE_NAME="760c276a-ffd4-48d6-932c-e00dd4be8c47"
 
 #加载各个版本的plist文件
 ADHOCExportOptionsPlist=$project_AutomaticPacking/ADHOCExportOptionsPlist.plist
@@ -59,6 +59,14 @@ EnterpriseExportOptionsPlist=${EnterpriseExportOptionsPlist}
 #method="$parameter"
 #直接设置固定让它只打第三个
 method=3
+
+
+# 258378102换成你对应的开机密码
+echo "`Date` unlock login.keychain"
+security unlock-keychain -p "258378102" ~/Library/Keychains/login.keychain
+security set-keychain-settings -t 3600 -l ~/Library/Keychains/login.keychain
+security show-keychain-info ~/Library/Keychains/login.keychain
+
 
 # 判读用户是否有输入
 if [ -n "$method" ]
