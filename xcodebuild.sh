@@ -42,9 +42,11 @@ echo "		2 AppStore"
 echo "		3 Enterprise"
 
 # 读取用户输入并存到变量里
-read parameter
-sleep 0.5
-method="$parameter"
+# read parameter
+# sleep 0.5
+# method="$parameter"
+
+method=3
 
 # 判读用户是否有输入
 if [ -n "$method" ]
