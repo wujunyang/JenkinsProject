@@ -371,7 +371,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.MobileProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "760c276a-ffd4-48d6-932c-e00dd4be8c47";
+				PROVISIONING_PROFILE = "0c62bb44-1fc0-4431-bcd7-ea1c7e132de3";
 				PROVISIONING_PROFILE_SPECIFIER = MobileProject;
 			};
 			name = Debug;
@@ -389,7 +389,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.MobileProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "760c276a-ffd4-48d6-932c-e00dd4be8c47";
+				PROVISIONING_PROFILE = "0c62bb44-1fc0-4431-bcd7-ea1c7e132de3";
 				PROVISIONING_PROFILE_SPECIFIER = MobileProject;
 			};
 			name = Release;
