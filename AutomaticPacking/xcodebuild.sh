@@ -40,9 +40,9 @@ ENTERPRISECODE_SIGN_IDENTITY="iPhone Distribution: Shanghai Qijia Network Inform
 ENTERPRISEROVISIONING_PROFILE_NAME="0dd43eba-207b-4ed9a-c1c7070a25c8"
 
 #加载各个版本的plist文件
-ADHOCExportOptionsPlist=$project_info_path/ADHOCExportOptionsPlist.plist
-AppStoreExportOptionsPlist=$project_info_path/AppStoreExportOptionsPlist.plist
-EnterpriseExportOptionsPlist=$project_info_path/EnterpriseExportOptionsPlist.plist
+ADHOCExportOptionsPlist=$project_info_path/AutomaticPacking/ADHOCExportOptionsPlist.plist
+AppStoreExportOptionsPlist=$project_info_path/AutomaticPacking/AppStoreExportOptionsPlist.plist
+EnterpriseExportOptionsPlist=$project_info_path/AutomaticPacking/EnterpriseExportOptionsPlist.plist
 
 ADHOCExportOptionsPlist=${ADHOCExportOptionsPlist}
 AppStoreExportOptionsPlist=${AppStoreExportOptionsPlist}
