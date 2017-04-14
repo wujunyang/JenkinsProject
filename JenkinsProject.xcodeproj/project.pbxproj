@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340BAD041DD308A900D3521C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BAD031DD308A900D3521C /* main.m */; };
+		340BAD071DD308A900D3521C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BAD061DD308A900D3521C /* AppDelegate.m */; };
+		340BAD0A1DD308A900D3521C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BAD091DD308A900D3521C /* RootViewController.m */; };
+		340BAD0D1DD308A900D3521C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BAD0C1DD308A900D3521C /* DataViewController.m */; };
+		340BAD101DD308A900D3521C /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BAD0F1DD308A900D3521C /* ModelController.m */; };
+		340BAD131DD308A900D3521C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340BAD111DD308A900D3521C /* Main.storyboard */; };
+		340BAD151DD308A900D3521C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340BAD141DD308A900D3521C /* Assets.xcassets */; };
+		340BAD181DD308A900D3521C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340BAD161DD308A900D3521C /* LaunchScreen.storyboard */; };
+		6EBF0BBD0F6797552EE62EBD /* libPods-JenkinsProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63988FD48C346B6CEAC61850 /* libPods-JenkinsProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		340BACFF1DD308A900D3521C /* JenkinsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		340BAD031DD308A900D3521C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		340BAD051DD308A900D3521C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		340BAD061DD308A900D3521C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		340BAD081DD308A900D3521C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		340BAD091DD308A900D3521C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		340BAD0B1DD308A900D3521C /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		340BAD0C1DD308A900D3521C /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		340BAD0E1DD308A900D3521C /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		340BAD0F1DD308A900D3521C /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		340BAD121DD308A900D3521C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		340BAD141DD308A900D3521C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		340BAD171DD308A900D3521C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		340BAD191DD308A900D3521C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63988FD48C346B6CEAC61850 /* libPods-JenkinsProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JenkinsProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7791B44DFBD92F1BE676B5C5 /* Pods-JenkinsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsProject/Pods-JenkinsProject.debug.xcconfig"; sourceTree = "<group>"; };
+		DD701690CD2EC8FC2AEDD1C6 /* Pods-JenkinsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-JenkinsProject/Pods-JenkinsProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		340BACFC1DD308A900D3521C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBF0BBD0F6797552EE62EBD /* libPods-JenkinsProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340BACF61DD308A900D3521C = {
+			isa = PBXGroup;
+			children = (
+				340BAD011DD308A900D3521C /* JenkinsProject */,
+				340BAD001DD308A900D3521C /* Products */,
+				C8B0856756AD977985D5AC2A /* Pods */,
+				7FEA2E346762960CFAAC0CDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		340BAD001DD308A900D3521C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				340BACFF1DD308A900D3521C /* JenkinsProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		340BAD011DD308A900D3521C /* JenkinsProject */ = {
+			isa = PBXGroup;
+			children = (
+				340BAD051DD308A900D3521C /* AppDelegate.h */,
+				340BAD061DD308A900D3521C /* AppDelegate.m */,
+				340BAD081DD308A900D3521C /* RootViewController.h */,
+				340BAD091DD308A900D3521C /* RootViewController.m */,
+				340BAD0B1DD308A900D3521C /* DataViewController.h */,
+				340BAD0C1DD308A900D3521C /* DataViewController.m */,
+				340BAD0E1DD308A900D3521C /* ModelController.h */,
+				340BAD0F1DD308A900D3521C /* ModelController.m */,
+				340BAD111DD308A900D3521C /* Main.storyboard */,
+				340BAD141DD308A900D3521C /* Assets.xcassets */,
+				340BAD161DD308A900D3521C /* LaunchScreen.storyboard */,
+				340BAD191DD308A900D3521C /* Info.plist */,
+				340BAD021DD308A900D3521C /* Supporting Files */,
+			);
+			path = JenkinsProject;
+			sourceTree = "<group>";
+		};
+		340BAD021DD308A900D3521C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				340BAD031DD308A900D3521C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FEA2E346762960CFAAC0CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63988FD48C346B6CEAC61850 /* libPods-JenkinsProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8B0856756AD977985D5AC2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7791B44DFBD92F1BE676B5C5 /* Pods-JenkinsProject.debug.xcconfig */,
+				DD701690CD2EC8FC2AEDD1C6 /* Pods-JenkinsProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		340BACFE1DD308A900D3521C /* JenkinsProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340BAD1C1DD308A900D3521C /* Build configuration list for PBXNativeTarget "JenkinsProject" */;
+			buildPhases = (
+				A25FAEB2E6FEA71B7020F925 /* [CP] Check Pods Manifest.lock */,
+				340BACFB1DD308A900D3521C /* Sources */,
+				340BACFC1DD308A900D3521C /* Frameworks */,
+				340BACFD1DD308A900D3521C /* Resources */,
+				0F708316911C4C2225D72915 /* [CP] Embed Pods Frameworks */,
+				E417D0B9C42B58616D0577FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkinsProject;
+			productName = JenkinsProject;
+			productReference = 340BACFF1DD308A900D3521C /* JenkinsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		340BACF71DD308A900D3521C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wujunyang;
+				TargetAttributes = {
+					340BACFE1DD308A900D3521C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49DZ72G7R4;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 340BACFA1DD308A900D3521C /* Build configuration list for PBXProject "JenkinsProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 340BACF61DD308A900D3521C;
+			productRefGroup = 340BAD001DD308A900D3521C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				340BACFE1DD308A900D3521C /* JenkinsProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		340BACFD1DD308A900D3521C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340BAD181DD308A900D3521C /* LaunchScreen.storyboard in Resources */,
+				340BAD151DD308A900D3521C /* Assets.xcassets in Resources */,
+				340BAD131DD308A900D3521C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F708316911C4C2225D72915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JenkinsProject/Pods-JenkinsProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A25FAEB2E6FEA71B7020F925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E417D0B9C42B58616D0577FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JenkinsProject/Pods-JenkinsProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		340BACFB1DD308A900D3521C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340BAD0D1DD308A900D3521C /* DataViewController.m in Sources */,
+				340BAD071DD308A900D3521C /* AppDelegate.m in Sources */,
+				340BAD101DD308A900D3521C /* ModelController.m in Sources */,
+				340BAD041DD308A900D3521C /* main.m in Sources */,
+				340BAD0A1DD308A900D3521C /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		340BAD111DD308A900D3521C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				340BAD121DD308A900D3521C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		340BAD161DD308A900D3521C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				340BAD171DD308A900D3521C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		340BAD1A1DD308A900D3521C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		340BAD1B1DD308A900D3521C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		340BAD1D1DD308A900D3521C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7791B44DFBD92F1BE676B5C5 /* Pods-JenkinsProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Qijia Network Information Science & Technology Co.,Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Qijia Network Information Science & Technology Co.,Ltd";
+				DEVELOPMENT_TEAM = 49DZ72G7R4;
+				INFOPLIST_FILE = JenkinsProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.MobileProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "760c276a-ffd4-48d6-932c-e00dd4be8c47";
+				PROVISIONING_PROFILE_SPECIFIER = MobileProject;
+			};
+			name = Debug;
+		};
+		340BAD1E1DD308A900D3521C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD701690CD2EC8FC2AEDD1C6 /* Pods-JenkinsProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Qijia Network Information Science & Technology Co.,Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Qijia Network Information Science & Technology Co.,Ltd";
+				DEVELOPMENT_TEAM = 49DZ72G7R4;
+				INFOPLIST_FILE = JenkinsProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.MobileProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "760c276a-ffd4-48d6-932c-e00dd4be8c47";
+				PROVISIONING_PROFILE_SPECIFIER = MobileProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		340BACFA1DD308A900D3521C /* Build configuration list for PBXProject "JenkinsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340BAD1A1DD308A900D3521C /* Debug */,
+				340BAD1B1DD308A900D3521C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340BAD1C1DD308A900D3521C /* Build configuration list for PBXNativeTarget "JenkinsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340BAD1D1DD308A900D3521C /* Debug */,
+				340BAD1E1DD308A900D3521C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 340BACF71DD308A900D3521C /* Project object */;
+}
