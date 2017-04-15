@@ -36,8 +36,8 @@ APPSTORECODE_SIGN_IDENTITY="iPhone Distribution: xxxxx"
 APPSTOREROVISIONING_PROFILE_NAME="xxxxx-xxxx-xxxx-xxxx-xxxxxx"
 
 #企业(enterprise)证书名#描述文件
-ENTERPRISECODE_SIGN_IDENTITY="iPhone Distribution: Shanghai Qijia Network Information Science & Technology Co.,Ltd"
-ENTERPRISEROVISIONING_PROFILE_NAME="760c276a-ffd4-48d6-932c-e00dd4be8c47"
+ENTERPRISECODE_SIGN_IDENTITY="iPhone Distribution: rk Information Science & Technology Co.,Ltd"
+ENTERPRISEROVISIONING_PROFILE_NAME="760c276a-d6-932c-e00dd4be8c47"
 
 #加载各个版本的plist文件
 ADHOCExportOptionsPlist=$project_AutomaticPacking/ADHOCExportOptionsPlist.plist
