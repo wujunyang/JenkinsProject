@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CDV.h"
 
-@interface DataViewController : UIViewController
+@interface DataViewController : CDVViewController
 
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;

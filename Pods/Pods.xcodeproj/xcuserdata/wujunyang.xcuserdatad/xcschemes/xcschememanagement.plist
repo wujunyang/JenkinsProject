@@ -4,57 +4,160 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking.xcscheme_^#shared#^_</key>
+		<key>AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
-		<key>JSONModel.xcscheme_^#shared#^_</key>
+		<key>Cordova.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
-		<key>Masonry.xcscheme_^#shared#^_</key>
+		<key>CordovaPlugin-console.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
-		<key>Pods-JenkinsProject.xcscheme_^#shared#^_</key>
+		<key>JSONModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
-		<key>ReactiveCocoa.xcscheme_^#shared#^_</key>
+		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
 		</dict>
-		<key>SDWebImage.xcscheme_^#shared#^_</key>
+		<key>Pods-JenkinsProject.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
+		</dict>
+		<key>ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-camera.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-contacts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-device-motion.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-device-orientation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-device.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-file-transfer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-file.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-geolocation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-globalization.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-inappbrowser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-media-capture.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-network-information.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-splashscreen.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-statusbar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cordova-plugin-vibration.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>188032E5DB0E144F4E6656161DA2FA82</key>
+		<key>075BB1F990E7644EE7AC25679E55AD8A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2589A823530EF513348A81E105ADC77F</key>
+		<key>1005C68823EB8F48E3758D769DB5A5EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>15928487EA1170F7C0D9DC231B89CEB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1DA8D116323C721948728BDE130165B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20A630B70742A8C94E5B0D1BA0BC1B01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CD60CFB39B9F25EE8F60E47CB22924C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>482413F87DF101D776C30B235E1B701F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C72A5B849B6A4D853455899AF781D41</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -64,7 +167,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96C8D8A3FFDD427A3385813E3CC67689</key>
+		<key>67C5A1F3339C4A868BE9066ADE7FC7B5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>687979B4F7056BB4E3FDE24BEBBF18A8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DB0C36E77FD2632BFA7B6E456E7D24F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>80E726DB8E882227030455EF2AC46213</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>96A2BFB9B77709FCA2A274313B4075AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -75,6 +198,41 @@
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A34AD748BD2571B6F63C7BC02BB07034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B16B6501610F6001CDA93FF3A3CB2B67</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9CFC246E90B70F0D47890BC8D9248E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CAFF4960C9978C02D37FD50E55B8E4D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D6EC2F5DF0415E89F1B55BB9BB35AC49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE80B69B62ED1E50C48EE04EE37051F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F385092D999A04B188776FA5B862C384</key>
 		<dict>
 			<key>primary</key>
 			<true/>

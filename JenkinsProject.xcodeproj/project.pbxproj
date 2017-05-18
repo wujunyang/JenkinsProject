@@ -367,7 +367,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Qijia Network Information Science & Technology Co.,Ltd";
 				DEVELOPMENT_TEAM = 49DZ72G7R4;
 				INFOPLIST_FILE = JenkinsProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.MobileProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,7 +385,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Qijia Network Information Science & Technology Co.,Ltd";
 				DEVELOPMENT_TEAM = 49DZ72G7R4;
 				INFOPLIST_FILE = JenkinsProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.MobileProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
